@@ -32,6 +32,7 @@ body {
     line-height: 1.5em;
     background-color: var(--fundo-principal);
     color: var(--texto);
+
 }
 
 
@@ -43,6 +44,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav#menu ul {
@@ -246,6 +250,24 @@ article h2 {
   object-fit: cover;
   overflow: hidden;
   border-radius: 8px;
+}
+
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 15px;
+
+}
+footer a {
+  color: var(--texto-inverso);
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+footer a:hover {
+  color: var(--destaque-inverso);
 }
 
 
