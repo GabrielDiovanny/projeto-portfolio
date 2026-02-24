@@ -1,269 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Protfólio Gabriel Diovanny</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-</head>
-<body>
-    <header> 
-        <nav id="menu">
-            <ul>
-                <li><a href="#video" class="link" ><span class="material-symbols-outlined">home</span></a></li>
-                <li><a href="#skills" class="link"><span class="material-symbols-outlined">network_intelligence</span></a></l>
-                <li><a href="#formacao" class="link"><span class="material-symbols-outlined">school</span></a></li>
-                <li><a href="#projeto" class="link"><span class="material-symbols-outlined">folder_code</span></a></li>
-                <li><a href="#" id="botao-tema"><span class="material-symbols-outlined">bedtime</span></a></li>
-            </ul>
-        </nav> 
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#video" class="link"
+              ><span class="material-symbols-outlined">home</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="link"
+              ><span class="material-symbols-outlined"
+                >network_intelligence</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#formacao" class="link"
+              ><span class="material-symbols-outlined">school</span></a
+            >
+          </li>
+          <li>
+            <a href="#projeto" class="link"
+              ><span class="material-symbols-outlined">folder_code</span></a
+            >
+          </li>
+          <li>
+            <a href="#" id="botao-tema" aria-label="Alternar tema">
+              <span class="material-symbols-outlined" id="icone-tema"
+                >dark_mode</span
+              >
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="ficha">
-            <img src="imagens/guanabara-perfil.jpg" alt="" class="foto">
-            <h1>Gabriel Diovanny</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias consequatur reiciendis deleniti! Perspiciatis atque voluptatum itaque, minus, neque ducimus error iusto nulla qui architecto pariatur. Praesentium dolore expedita omnis perspiciatis.</p>
-            <div id="social">
-                <a href="" target="_blank" rel="nofollow"> <img src="imagens/linkedin.png" alt=""></a>
-                <a href="" target="_blank" rel="nofollow"><img src="imagens/github.png" alt=""></a>
-                <a href="" target="_blank" rel="nofollow"><img src="imagens/whatsapp.png" alt=""></a>
-                <a href="" target="_blank" rel="nofollow"><img src="imagens/instagram.png" alt=""></a>
-                <a href="" target="_blank" rel="nofollow">Site</a>
-                <a href="" target="_blank" rel="nofollow"></a>
+      <section id="ficha">
+        <img src="imagens/guanabara-perfil.jpg" alt="" class="foto" />
+        <h1>Gabriel Diovanny</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+          consequatur reiciendis deleniti! Perspiciatis atque voluptatum itaque,
+          minus, neque ducimus error iusto nulla qui architecto pariatur.
+          Praesentium dolore expedita omnis perspiciatis.
+        </p>
+        <div id="social">
+          <a href="" target="_blank" rel="nofollow">
+            <img src="imagens/linkedin.png" alt=""
+          /></a>
+          <a href="" target="_blank" rel="nofollow"
+            ><img src="imagens/github.png" alt=""
+          /></a>
+          <a href="" target="_blank" rel="nofollow"
+            ><img src="imagens/whatsapp.png" alt=""
+          /></a>
+          <a href="" target="_blank" rel="nofollow"
+            ><img src="imagens/instagram.png" alt=""
+          /></a>
+          <a href="" target="_blank" rel="nofollow">Site</a>
+          <a href="" target="_blank" rel="nofollow"></a>
+        </div>
+      </section>
+      <section id="detalhes">
+        <article id="video">
+          <h2>
+            <span class="material-symbols-outlined"> handshake </span>Deixe-me
+            apresentar
+          </h2>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/U4oWWCXEQa4?si=ZEpwPPGuKtiPk4EU&amp;start=4750"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+        <!-- fim do article#video-->
+        <article id="skills">
+          <h2>
+            <span class="material-symbols-outlined">network_intelligence</span
+            >Minhas Skills
+          </h2>
+          <div id="skill-container">
+            <div>
+              <div class="info">
+                <span class="nome"> HTML5 </span>
+                <span class="porcent"> 90% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 90%"></div>
+              </div>
             </div>
-        </section>
-        <section id="detalhes">
-            <article id="video">
-                <h2> <span class="material-symbols-outlined">
-handshake
-</span>Deixe-me apresentar</h2>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U4oWWCXEQa4?si=ZEpwPPGuKtiPk4EU&amp;start=4750" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                </div>
-            </article> <!-- fim do article#video-->
-            <article id="skills">
-                <h2><span class="material-symbols-outlined">network_intelligence</span>Minhas Skills</h2>
-                <div id="skill-container">
-                    <div>
-                        <div class="info">
-                            <span class="nome">
-                                HTML5
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                    </div>
+            <div>
+              <div class="info">
+                <span class="nome"> CSS3 </span>
+                <span class="porcent"> 80% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 80%"></div>
+              </div>
+            </div>
 
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                CSS3
-                            </span>
-                            <span class="porcent">
-                                80%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 80%;"></div>
-                        </div>
-                    </div>
+            <div>
+              <div class="info">
+                <span class="nome"> JAVASCRIPT </span>
+                <span class="porcent"> 0% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> PHYTON </span>
+                <span class="porcent"> 0% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> Node.js </span>
+                <span class="porcent"> 0% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> MYSQL </span>
+                <span class="porcent"> 0% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 00%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> COMUNICAÇÃO </span>
+                <span class="porcent"> 90% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> Trabalho em equipe </span>
+                <span class="porcent"> 100% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 100%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="info">
+                <span class="nome"> Adaptabilidade </span>
+                <span class="porcent"> 85% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- fim do article#skills-->
+        <article id="formacao">
+          <h2>
+            <span class="material-symbols-outlined">school</span> Formação
+          </h2>
 
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                JAVASCRIPT
-                            </span>
-                            <span class="porcent">
-                                0%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                PHYTON
-                            </span>
-                            <span class="porcent">
-                                0%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                Node.js
-                            </span>
-                            <span class="porcent">
-                                0%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                MYSQL
-                            </span>
-                            <span class="porcent">
-                                0%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 00%;"></div>
-                        </div>
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                COMUNICAÇÃO
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                        
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                Trabalho em equipe
-                            </span>
-                            <span class="porcent">
-                                100%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 100%;"></div>
-                        </div>
-                    </div>
-                                        <div>
-                        <div class="info">
-                            <span class="nome">
-                                Adaptabilidade
-                            </span>
-                            <span class="porcent">
-                                85%
-                            </span>
-                        </div>
-                        <div class="barra">
-                                <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </article><!-- fim do article#skills-->
-            <article id="formacao">
-                <h2><span class="material-symbols-outlined">school</span> Formação</h2>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">1991 - 1994</p>
+              <h3 class="instituicao">Escola Tecnica Carioca</h3>
+              <p class="titulacao">Técnico em Informatica</p>
+            </div>
 
+            <div class="curso">
+              <p class="periodo">1995 - 2000</p>
+              <h3 class="instituicao">Escola Tecnica Carioca</h3>
+              <p class="titulacao">Técnico em Informatica</p>
+            </div>
 
-                <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">2001 - 2004</p>
+              <h3 class="instituicao">Escola Tecnica Carioca</h3>
+              <p class="titulacao">Técnico em Informatica</p>
+            </div>
+          </div>
+        </article>
+        <!-- fim do article#formação-->
+        <article id="projeto">
+          <h2>
+            <span class="material-symbols-outlined">folder_code</span>Projetos
+          </h2>
 
-                        <div class="curso">
-                            <p class="periodo">1991 - 1994</p>
-                            <h3 class="instituicao">Escola Tecnica Carioca</h3>
-                            <p class="titulacao">Técnico em Informatica</p>
-                        </div>
-
-
-                        <div class="curso">
-                            <p class="periodo">1995 - 2000</p>
-                            <h3 class="instituicao">Escola Tecnica Carioca</h3>
-                            <p class="titulacao">Técnico em Informatica</p>
-                        </div>
-
-                        <div class="curso">
-                            <p class="periodo">2001 - 2004</p>
-                            <h3 class="instituicao">Escola Tecnica Carioca</h3>
-                            <p class="titulacao">Técnico em Informatica</p>
-                        </div>
-
-                </div>
-
-
-            </article><!-- fim do article#formação-->
-            <article id="projeto">
-                <h2><span class="material-symbols-outlined">folder_code</span>Projetos</h2>
-
-                <div id="projeto-container"> 
-                    <div class="projeto"> <!-- PROJETO 1 -->
-                        <img class="foto" src="imagens/projeto-01-videos.jpg" alt="">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Videos</h3>
-                            <p>Projeto construido para treinar a inserção de video em nosso site</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim nobis doloribus consequatur laborum reiciendis ad odit excepturi, beatae neque qui ut ipsam minima quae accusantium aperiam est quaerat assumenda.</p>
-                            </details>
-
-                        </div>
-                    </div>  
-                    <div class="projeto"> <!-- PROJETO 2 -->
-                        <img class="foto" src="imagens/projeto-02-cordel.jpg" alt="">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto Cordel</h3>
-                            <p>Projeto construido para treinar a inserção de video em nosso site</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim nobis doloribus consequatur laborum reiciendis ad odit excepturi, beatae neque qui ut ipsam minima quae accusantium aperiam est quaerat assumenda.</p>
-                            </details>
-                        </div>
-                    </div>
-                    <div class="projeto"> <!-- PROJETO 3 -->
-                        <img class="foto" src="imagens/projeto-01-videos.jpg" alt="">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Videos</h3>
-                            <p>Projeto construido para treinar a inserção de video em nosso site</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim nobis doloribus consequatur laborum reiciendis ad odit excepturi, beatae neque qui ut ipsam minima quae accusantium aperiam est quaerat assumenda.</p>
-                            </details>
-                        </div>
-                    </div>
-                    <div class="projeto"> <!-- PROJETO 4 -->
-                        <img class="foto" src="imagens/projeto-01-videos.jpg" alt="">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Videos</h3>
-                            <p>Projeto construido para treinar a inserção de video em nosso site</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim nobis doloribus consequatur laborum reiciendis ad odit excepturi, beatae neque qui ut ipsam minima quae accusantium aperiam est quaerat assumenda.</p>
-                            </details>
-                        </div>
-                    </div>
-                </div>
-
-
-            </article><!-- fim do article#projeto-->
-        </section>
+          <div id="projeto-container">
+            <div class="projeto">
+              <!-- PROJETO 1 -->
+              <img class="foto" src="imagens/projeto-01-videos.jpg" alt="" />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Videos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de video em nosso
+                  site
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                    enim nobis doloribus consequatur laborum reiciendis ad odit
+                    excepturi, beatae neque qui ut ipsam minima quae accusantium
+                    aperiam est quaerat assumenda.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <div class="projeto">
+              <!-- PROJETO 2 -->
+              <img class="foto" src="imagens/projeto-02-cordel.jpg" alt="" />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto Cordel</h3>
+                <p>
+                  Projeto construido para treinar a inserção de video em nosso
+                  site
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                    enim nobis doloribus consequatur laborum reiciendis ad odit
+                    excepturi, beatae neque qui ut ipsam minima quae accusantium
+                    aperiam est quaerat assumenda.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <div class="projeto">
+              <!-- PROJETO 3 -->
+              <img class="foto" src="imagens/projeto-01-videos.jpg" alt="" />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Videos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de video em nosso
+                  site
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                    enim nobis doloribus consequatur laborum reiciendis ad odit
+                    excepturi, beatae neque qui ut ipsam minima quae accusantium
+                    aperiam est quaerat assumenda.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <div class="projeto">
+              <!-- PROJETO 4 -->
+              <img class="foto" src="imagens/projeto-01-videos.jpg" alt="" />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Videos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de video em nosso
+                  site
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                    enim nobis doloribus consequatur laborum reiciendis ad odit
+                    excepturi, beatae neque qui ut ipsam minima quae accusantium
+                    aperiam est quaerat assumenda.
+                  </p>
+                </details>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- fim do article#projeto-->
+      </section>
     </main>
 
-
     <footer>
-        Portifólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow"> Curso em Video </a> em 2025
+      Portifólio desenvolvido por
+      <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">
+        Curso em Video
+      </a>
+      em 2025
     </footer>
 
-
     <script src="scripts/script.js"></script>
-</body>
+  </body>
 </html>
