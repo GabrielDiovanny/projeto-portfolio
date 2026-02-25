@@ -9,7 +9,8 @@ const body = document.body;
 const temaSalvo = localStorage.getItem('tema');
 aplicarTema(temaSalvo === 'escuro');
 
-function aplicarTema(escuro) {
+function aplicarTema(escuro)
+ {
   body.classList.toggle('escuro', escuro);
   if (iconeTema) iconeTema.textContent = escuro ? 'light_mode' : 'dark_mode';
 }
